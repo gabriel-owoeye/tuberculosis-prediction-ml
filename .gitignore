@@ -1,0 +1,14 @@
+# Keep source datasets out of GitHub unless approved and anonymised
+data/*
+!data/.gitkeep
+*.xlsx
+*.xls
+*.csv
+
+# Python/Jupyter
+__pycache__/
+.ipynb_checkpoints/
+*.py[cod]
+.venv/
+venv/
+.env
